@@ -81,7 +81,8 @@ Based on your analysis, determine:
 Please output the result in a JSON object matching the following schema:
 \`\`\`json
 {{json_schema_definition AuditRiskAnalysisOutputSchema}}
-\`\`\`'
+\`\`\`
+`,
 });
 
 const auditRiskAnalysisFlow = ai.defineFlow(
